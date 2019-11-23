@@ -16,6 +16,7 @@
 ### Procedure
 
 1. clone this repository
+1. `cd APSEC2019Class`
 1. `mkdir data | mkdir data/input data/model data/output data/raw_data`
 1. download the [data](http://groups.inf.ed.ac.uk/cup/naturalize/) and put it in `data/raw_data`
 1. `cd RelationExtractor | mvn clean install`
