@@ -26,9 +26,11 @@
 
 ### BibTeX
 
-> @inproceedings{kurimoto2019class,\
-    title={Class Name Recommendation based on Graph Embedding of Program Elements},\
-    author={Kurimoto, Shintaro and Hayase, Yasuhiro and Yonai, Hiroshi and Ito, Hiroyoshi and Kitagawa, Hiroyuki},\
-    booktitle={2019 26th Asia-Pacific Software Engineering Conference (APSEC)},\
-    year={2019}\
+```
+@inproceedings{kurimoto2019class,
+    title={Class Name Recommendation based on Graph Embedding of Program Elements},
+    author={Kurimoto, Shintaro and Hayase, Yasuhiro and Yonai, Hiroshi and Ito, Hiroyoshi and Kitagawa, Hiroyuki},
+    booktitle={2019 26th Asia-Pacific Software Engineering Conference (APSEC)},
+    year={2019}
 }
+```
