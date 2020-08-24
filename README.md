@@ -19,6 +19,7 @@
 1. `cd APSEC2019Class`
 1. `mkdir data | mkdir data/input data/model data/output data/raw_data`
 1. download the [data](http://groups.inf.ed.ac.uk/cup/naturalize/) and put it in `data/raw_data`
+1. [TODO]: missing a necessary procedure for preprocessing the raw data here
 1. `cd RelationExtractor | mvn clean install`
 1. `cd .. | java -cp RelationExtractor/target/RelationExtractor-1.0-SNAPSHOT-jar-with-dependencies.jar Main`
 1. `pipenv install`
