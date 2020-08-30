@@ -28,7 +28,7 @@ public class Main {
 
     public static void main(String[] args) {
         File dataRoot = Paths.get("data").toAbsolutePath().normalize().toFile();
-        File rawDataDir = Paths.get(dataRoot.getAbsolutePath() + "/raw_data").toAbsolutePath().normalize().toFile();
+        File rawDataDir = Paths.get(dataRoot.getAbsolutePath() + "/processed_data").toAbsolutePath().normalize().toFile();
         File inputDir = Paths.get(dataRoot.getAbsolutePath() + "/input").toAbsolutePath().normalize().toFile();
 
         Random rand = new Random(0L);
