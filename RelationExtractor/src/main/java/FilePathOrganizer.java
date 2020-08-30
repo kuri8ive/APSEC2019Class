@@ -21,10 +21,8 @@ public class FilePathOrganizer {
                                    .toAbsolutePath().normalize().toFile();
         String processedDataDirPath = Paths.get(dataRoot.getAbsolutePath() + "/processed_data")
                                      .toAbsolutePath().normalize().toString();
-        File trainRootDirPath = Paths.get(rawTrainDataDir).toFile();
-        File testRootDirPath = Paths.get(rawTestDataDir).toFile();
-        File[] trainProjects = trainRootDirPath.listFiles();
-        File[] testProjects = testRootDirPath.listFiles();
+        File[] trainProjects = rawTrainDataDir.listFiles();
+        File[] testProjects = rawTestDataDir.listFiles();
         List<File> projectRootDirectories = new ArrayList<>();
         Collections.addAll(projectRootDirectories, trainProjects);
         Collections.addAll(projectRootDirectories, testProjects);
